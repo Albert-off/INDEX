@@ -1,4 +1,5 @@
 /*==================== GOOGLE FONTS ====================*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@500;700&display=swap');
 
@@ -432,9 +433,9 @@ header {
         white-space: nowrap;
         text-decoration: none;
         font-weight: 800;
-        font-size: 1.3em;
+        /*font-size: 1.3em;
+        column-gap: .25rem;*/
         align-items: center;
-        column-gap: .25rem;
         
         /*
         font-weight: 500; 800
@@ -466,9 +467,20 @@ header {
           background-position: 100%; 
         }
     }
-    
-    .pkgics{
-        font-size: 2.7rem; /*1.1em*/
+
+    .ri-arrow-left-s-line,
+    .ri-arrow-right-s-line{
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: -3px;
+        font-size: 1.5em; /*1.5*/
+    }
+
+    .ri-arrow-left-s-line{
+        margin-right: -4px; /*-4*/
+    } 
+    .ri-arrow-right-s-line{
+        margin-left: -4px;
     }
 
     /*.nav-item .logo-mobile .fa-home {
