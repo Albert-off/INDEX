@@ -470,17 +470,17 @@ header {
 
     .ri-arrow-left-s-line,
     .ri-arrow-right-s-line{
-        display: inline-block;
+        /*display: inline-block;*/
         vertical-align: middle;
-        margin-top: -3px;
-        font-size: 1.5em; /*1.5*/
+        /*margin-top: -3px;*/
+        font-size: 1.2em;
     }
 
     .ri-arrow-left-s-line{
-        margin-right: -4px; /*-4*/
+        margin-right: -3px;
     } 
     .ri-arrow-right-s-line{
-        margin-left: -4px;
+        margin-left: -3px;
     }
 
     /*.nav-item .logo-mobile .fa-home {
