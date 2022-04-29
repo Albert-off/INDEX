@@ -467,9 +467,19 @@ header {
         }
     }
 
-    .uil-angle-left-b,
-    .uil-angle-right-b{
-        font-size: 1.1em;
+    .ri-arrow-left-s-line,
+    .ri-arrow-right-s-line{
+        /*display: inline-block;*/
+        vertical-align: middle;
+        /*margin-top: -3px;*/
+        font-size: 1.2em;
+    }
+
+    .ri-arrow-left-s-line{
+        margin-right: -3px;
+    } 
+    .ri-arrow-right-s-line{
+        margin-left: -3px;
     }
 
     /*.nav-item .logo-mobile .fa-home {
