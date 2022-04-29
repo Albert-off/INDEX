@@ -1,6 +1,6 @@
 /*==================== GOOGLE FONTS ====================*/
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@500;700&display=swap');
 
 /*==================== VARIABLES CSS ====================*/
@@ -428,14 +428,13 @@ header {
     }*/
 
     .nav-item .logo-mobile {
-        /*display: inline-flex; deleted*/
         font-family: 'Krona One', sans-serif;
         white-space: nowrap;
         text-decoration: none;
         font-weight: 800;
-        /*font-size: 1.3em;
-        column-gap: .25rem;*/
+        /*font-size: 1.3em;*/
         align-items: center;
+        column-gap: .25rem;
         
         /*
         font-weight: 500; 800
@@ -468,19 +467,9 @@ header {
         }
     }
 
-    .ri-arrow-left-s-line,
-    .ri-arrow-right-s-line{
-        /*display: inline-block;*/
-        vertical-align: middle;
-        /*margin-top: -3px;*/
-        font-size: 1.2em;
-    }
-
-    .ri-arrow-left-s-line{
-        margin-right: -3px;
-    } 
-    .ri-arrow-right-s-line{
-        margin-left: -3px;
+    .uil-angle-left-b,
+    .uil-angle-right-b{
+        font-size: 1.1em;
     }
 
     /*.nav-item .logo-mobile .fa-home {
